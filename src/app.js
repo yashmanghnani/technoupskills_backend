@@ -56,7 +56,7 @@ app.post('/', async (req, res) => {
     }
 });
 
-app.get('/', (req, res) => res.send("Api is working v2"));
+app.get('/', (req, res) => res.send("Api is working v2ss"));
 
 app.listen(port, () => {
     console.log(`Connection is setup at ${port}`);
