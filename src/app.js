@@ -39,7 +39,7 @@ app.post('/', async (req, res) => {
             res.status(200).json({ message: 'Deployment triggered' });
 
             // Then run the script asynchronously
-            exec('/home/beta.sh', (error, stdout, stderr) => {
+            exec('/home/techno.sh', (error, stdout, stderr) => {
                 if (error) {
                     console.error(`Deployment error: ${error}`);
                 } else {
