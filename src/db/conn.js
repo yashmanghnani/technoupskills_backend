@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://admin:Yash%40Edith%401234@127.0.0.1:27017/students-api", {
+mongoose.connect("mongodb://admin:Yash%40Edith%401234@31.97.230.47:27017/students-api?authSource=admin", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 45000,
