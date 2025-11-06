@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/students-api", {
+mongoose.connect("mongodb://admin:Yash%40Edith%401234@127.0.0.1:27017/students-api", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 45000,
